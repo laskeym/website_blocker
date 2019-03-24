@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website Blocker</title>
+
+  <style>
+    .container {
+      border: 3px solid #00004C;
+      margin: 3rem auto;
+      padding: 0;
+      width: 40%;
+    }
+
+    img {
+      height: 32px;
+      padding-right: 0.5rem;
+      width: 32px;
+      vertical-align: middle;
+    }
+
+    .container .header {
+      border-bottom: 3px solid #00004C;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .container .header span {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0;
+      vertical-align: middle;
+    }
+
+    .container .body {
+      font-size: 1.1rem;
+    }
+
+    .container .body p:first-child {
+      text-align: center;
+      padding: 3rem 0;
+    }
+
+    .container .body p:nth-child(2) {
+      font-size: 0.7rem;
+      padding-left: 0.3rem;
+    }
+
+    .container .body p:nth-child(2) a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <img src="https://image.flaticon.com/icons/svg/394/394584.svg" alt="notice">
+        <span>Notice: Blocked Site</span>
+    </div>
+
+    <div class="body">
+      <p>You are trying to access <strong>{{ url }}</strong> and currently have a blocker enabled.</p>
+
+      <p>Icon made by <a href="https://www.flaticon.com/authors/freepik">freepik</a> from <a href="https://www.flaticon.com'">www.flaticon.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
