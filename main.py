@@ -230,7 +230,7 @@ def main():
     ex = Example(None, title='Website Blocker')
     ex.Show()
 
-    msg = wx.MessageDialog(None, 'Remember to refresh the browser cache for rules to take effect!', 'INFO', wx.OK | wx.ICON_WARNING)
+    msg = wx.MessageDialog(None, 'Remember to refresh the browser cache for rules to take effect!', 'Reminder', wx.OK | wx.ICON_WARNING)
     msg.ShowModal()
 
     app.MainLoop()
