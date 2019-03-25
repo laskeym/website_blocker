@@ -16,7 +16,7 @@ This project uses Python 3.5.3, wxPython and a simple HTTP server.
 
 A few pre configuration steps to run first:
 
-* Run `sudo visudo` and input `{username}  ALL=(ALL) NOPASSWD: {project_dir}/grant.sh`, as well as `{username}  ALL=(ALL)  NOPASSWD: {project_dir}/revoke.sh`
+* Run `sudo visudo` and input `{username}  ALL=(ALL) NOPASSWD: {path_to_project_dir}/grant.sh`, as well as `{username}  ALL=(ALL)  NOPASSWD: {path_to_project_dir}/revoke.sh`
 
 Currently, this application is run through the command line
 
